@@ -1,5 +1,6 @@
 # MAXRIG PRO (Open Beta) 🚀
 for Autodesk 3ds Max 2025+
+
 **Advanced Auto-Rigging & Animation Retargeting Suite for 3ds Max**
 
 MAXRIG PRO is a modular Python-based toolset designed to bridge the gap between custom FBX/BVH motion data and standard 3ds Max bone systems. It automates rig building, skin transfer, and complex animation retargeting through a data-driven JSON pipeline.
