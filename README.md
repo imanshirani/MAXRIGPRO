@@ -2,8 +2,12 @@
 **Advanced Auto-Rigging & Animation Retargeting Suite for 3ds Max**
 
 MAXRIG PRO is a modular Python-based toolset designed to bridge the gap between custom FBX/BVH motion data and standard 3ds Max bone systems. It automates rig building, skin transfer, and complex animation retargeting through a data-driven JSON pipeline.
+[![Donate ❤️](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/donate/?hosted_button_id=LAMNRY6DDWDC4)
 
 ---
+## ⚠️ Beta Note (Known Issues)
+* **FBX Rotation Inconsistencies:** Some FBX files may require manual adjustment via the **Live Calibrator** due to varied coordinate systems.
+* **Undo History:** Large skin transfer operations might take a moment to register in the undo buffer.
 
 ## ✨ Key Features
 * **Automated Rig Builder:** Generate clean, standard bone hierarchies from JSON configurations.
@@ -18,6 +22,4 @@ MAXRIG PRO is a modular Python-based toolset designed to bridge the gap between 
 3. Select and run `launch.py`.
 4. The tool will appear as a dockable QDockWidget for easy access.
 
-## ⚠️ Beta Note (Known Issues)
-* **FBX Rotation Inconsistencies:** Some FBX files may require manual adjustment via the **Live Calibrator** due to varied coordinate systems.
-* **Undo History:** Large skin transfer operations might take a moment to register in the undo buffer.
+
