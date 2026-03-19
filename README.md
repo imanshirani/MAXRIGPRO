@@ -5,10 +5,11 @@ for Autodesk 3ds Max 2025+
 
 MAXRIG PRO is a modular Python-based toolset designed to bridge the gap between custom FBX/BVH motion data and standard 3ds Max bone systems. It automates rig building, skin transfer, and complex animation retargeting through a data-driven JSON pipeline.
 
-[![Donate ❤️](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/donate/?hosted_button_id=LAMNRY6DDWDC4)
-![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
-![PyQt6](https://img.shields.io/badge/GUI-PyQt6-green.svg)
-![License](https://img.shields.io/badge/License-MIT-purple.svg)
+[![Donate ❤️](https://img.shields.io/badge/Donate-PayPal-00457C?style=flat-square&logo=paypal&logoColor=white)](https://www.paypal.com/donate/?hosted_button_id=LAMNRY6DDWDC4)
+![3dsmax](https://img.shields.io/badge/Autodesk-3ds%20Max-0696D7?style=flat-square&logo=autodesk)
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyQt6](https://img.shields.io/badge/GUI-PyQt6-41CD52?style=flat-square&logo=qt&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-purple?style=flat-square)
 
 ---
 ## ⚠️ Beta Note (Known Issues)
