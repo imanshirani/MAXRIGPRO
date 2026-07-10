@@ -1,0 +1,431 @@
+{
+    "profile_name": "Mixamo_Max_Final_Corrected",
+    "rig_name": "__ACCURIG__",
+    "scale_factor": 1.0,
+    "mapping": {
+        "Head": {
+            "target_bone": "Head",
+            "param_name": "head",
+            "pattern": "CC_Base_Head",
+            "mode": "PR",
+            "method": "SNAP",
+            "matrix": [[0,0.9859,0.1676],[0,-0.1676,0.9859],[1,0,0],[0,0,0]]
+        },
+        "Neck": {
+            "target_bone": "Neck2",
+            "param_name": "Neck2",
+            "pattern": "CC_Base_NeckTwist02",
+            "mode": "R",
+            "method": "SNAP",
+            "matrix": [[0,-0.1726,0.985],[-0.9926,-0.1197,-0.021],[0.1215,-0.9777,-0.1713],[-15.0804,150.5436,176.1204]]
+        },
+        "Neck1": {
+            "target_bone": "Neck1",
+            "param_name": "Neck1",
+            "pattern": "CC_Base_NeckTwist01",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[0,1,0],[0,0,1],[1,0,0],[0,0,0]]
+        },
+        "Spine_3_Ribcage": {
+            "target_bone": "Ribcage",
+            "param_name": "Ribcage",
+            "pattern": "CC_Base_Spine02",
+            "mode": "PR",
+            "method": "SNAP",
+            "matrix": [[0,0.1215,0.9926],[-0.9926,-0.1206,0.0148],[0.1215,-0.9852,0.1206],[-15.0806,132.8902,117.4425]]
+        },
+        "Spine01": {
+            "target_bone": "Spine01",
+            "param_name": "Spine2",
+            "pattern": "CC_Base_Spine01",
+            "mode": "R",
+            "method": "DEFAULT",
+            "matrix": [[0,1,0],[0,0,1],[1,0,0],[0.0025,27.3825,-0.1309]]
+        },
+        "Waist": {
+            "target_bone": "Waist",
+            "param_name": "Waist",
+            "pattern": "CC_Base_Waist",
+            "mode": "R",
+            "method": "DEFAULT",
+            "matrix": [[0,0.147,0.9891],[-0.9891,-0.1454,0.0216],[0.147,-0.9784,0.1454],[-18.4956,110.0468,97.8434]]
+        },
+        "Pelvis": {
+            "target_bone": "Pelvis",
+            "param_name": "Pelvis",
+            "pattern": "CC_Base_Pelvis",
+            "mode": "PR",
+            "method": "SNAP",
+            "matrix": [[0,1,0],[0,0,1],[1,0,0],[0,-1.4817,0.1037]]
+        },
+        "Left_Arm_Collar": {
+            "target_bone": "LCollarbone",
+            "param_name": "LCollarbone",
+            "pattern": "CC_Base_L_Clavicle",
+            "mode": "D",
+            "method": "SNAP",
+            "matrix": [[0,1,0],[0,0,1],[1,0,0],[0,0,0]]
+        },
+        "Left_Arm_Upper": {
+            "target_bone": "LUpperarm",
+            "param_name": "LUpperarm",
+            "pattern": "CC_Base_L_Upperarm",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[0,1,0],[0,0,1],[1,0,0],[0,0,0]]
+        },
+        "Left_Arm_Fore": {
+            "target_bone": "LForearm",
+            "param_name": "LForearm",
+            "pattern": "CC_Base_L_Forearm",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[0,1,0],[0,0,1],[1,0,0],[0,0,0]]
+        },
+        "Left_Arm_Palm": {
+            "target_bone": "LPalm",
+            "param_name": "LPalm",
+            "pattern": "CC_Base_L_Hand",
+            "mode": "PR",
+            "method": "SNAP",
+            "matrix": [[0,1,0],[-1,0,0],[0,0,1],[0,0,0]]
+        },
+        "L_Index_1": {
+            "target_bone": "L_Index_1",
+            "param_name": "Index",
+            "pattern": "CC_Base_L_Index1",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[0,0,-1],[1,0,0],[0,-1,0],[77.1542,146.8275,223.9817]]
+        },
+        "L_Index_2": {
+            "target_bone": "L_Index_2",
+            "param_name": "Index",
+            "pattern": "CC_Base_L_Index2",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[0,0,-1],[1,0,0],[0,-1,0],[80.8539,146.8275,227.6816]]
+        },
+        "L_Index_3": {
+            "target_bone": "L_Index_3",
+            "param_name": "Index",
+            "pattern": "CC_Base_L_Index3",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[0,0,-1],[1,0,0],[0,-1,0],[83.7039,146.8276,230.5315]]
+        },
+        "L_Middle_1": {
+            "target_bone": "L_Middle_1",
+            "param_name": "Middle",
+            "pattern": "CC_Base_L_Mid1",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[0,0,-1],[1,0,0],[0,-1,0],[75.318,149.6055,224.9236]]
+        },
+        "L_Middle_2": {
+            "target_bone": "L_Middle_2",
+            "param_name": "Middle",
+            "pattern": "CC_Base_L_Mid2",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[0,0,-1],[1,0,0],[0,-1,0],[79.0181,149.6055,228.6236]]
+        },
+        "L_Middle_3": {
+            "target_bone": "L_Middle_3",
+            "param_name": "Middle",
+            "pattern": "CC_Base_L_Mid3",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[0,0,-1],[1,0,0],[0,-1,0],[81.968,149.6054,231.5739]]
+        },
+        "L_Pinky_1": {
+            "target_bone": "L_Pinky_1",
+            "param_name": "Pinky",
+            "pattern": "CC_Base_L_Pinky1",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[0,0,-1],[1,0,0],[0,-1,0],[70.0561,152.9248,222.9812]]
+        },
+        "L_Pinky_2": {
+            "target_bone": "L_Pinky_2",
+            "param_name": "Pinky",
+            "pattern": "CC_Base_L_Pinky2",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[0,0,-1],[1,0,0],[0,-1,0],[73.6561,152.9248,226.5813]]
+        },
+        "L_Pinky_3": {
+            "target_bone": "L_Pinky_3",
+            "param_name": "Pinky",
+            "pattern": "CC_Base_L_Pinky3",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[0,0,-1],[1,0,0],[0,-1,0],[75.7561,152.9248,228.6812]]
+        },
+        "L_Ring_1": {
+            "target_bone": "L_Ring_1",
+            "param_name": "Ring",
+            "pattern": "CC_Base_L_Ring1",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[0,0,-1],[1,0,0],[0,-1,0],[73.0241,151.4274,224.4519]]
+        },
+        "L_Ring_2": {
+            "target_bone": "L_Ring_2",
+            "param_name": "Ring",
+            "pattern": "CC_Base_L_Ring2",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[0,0,-1],[1,0,0],[0,-1,0],[76.174,151.4274,227.6019]]
+        },
+        "L_Ring_3": {
+            "target_bone": "L_Ring_3",
+            "param_name": "Ring",
+            "pattern": "CC_Base_L_Ring3",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[0,0,-1],[1,0,0],[0,-1,0],[79.1253,151.4275,230.5519]]
+        },
+        "L_Thumb_1": {
+            "target_bone": "L_Thumb_1",
+            "param_name": "Thumb",
+            "pattern": "CC_Base_L_Thumb1",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[-0.2818,-0.6216,-0.7308],[0.9162,-0.4006,-0.0126],[-0.285,-0.6731,0.6824],[132.5749,145.7981,99.2205]]
+        },
+        "L_Thumb_2": {
+            "target_bone": "L_Thumb_2",
+            "param_name": "Thumb",
+            "pattern": "CC_Base_L_Thumb2",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[-0.2806,-0.6199,-0.7328],[0.9165,-0.3998,-0.0128],[-0.285,-0.6752,0.6804],[137.8259,144.0891,101.4097]]
+        },
+        "L_Thumb_3": {
+            "target_bone": "L_Thumb_3",
+            "param_name": "Thumb",
+            "pattern": "CC_Base_L_Thumb3",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[-0.2797,-0.6187,-0.7341],[0.9168,-0.3992,-0.0129],[-0.2851,-0.6766,0.6789],[142.1171,142.666,103.1553]]
+        },
+        "Left_Leg_Thigh": {
+            "target_bone": "LThigh",
+            "param_name": "LThigh",
+            "pattern": "CC_Base_L_Thigh",
+            "mode": "D",
+            "method": "SNAP",
+            "matrix": [[0,1,0],[0,0,1],[1,0,0],[0,0,0]]
+        },
+        "Left_Leg_Calf": {
+            "target_bone": "LCalf",
+            "param_name": "LCalf",
+            "pattern": "CC_Base_L_Calf",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[0,1,0],[0,0,1],[1,0,0],[0,0,0]]
+        },
+        "Left_Leg_Foot": {
+            "target_bone": "LFoot",
+            "param_name": "LFoot",
+            "pattern": "CC_Base_L_Foot",
+            "mode": "D",
+            "method": "SNAP",
+            "matrix": [[0,1,0],[0,0,1],[1,0,0],[0,0,0]]
+        },
+        "Left_Leg_Toe": {
+            "target_bone": "LToe",
+            "param_name": "Toe",
+            "pattern": "CC_Base_L_ToeBaseShareBone",
+            "mode": "D",
+            "method": "SNAP",
+            "matrix": [[0,-0.0369,-1],[0,1,-0.0369],[1,0,0],[0,0,0]]
+        },
+        "Right_Arm_Collar": {
+            "target_bone": "RCollarbone",
+            "param_name": "RCollarbone",
+            "pattern": "CC_Base_R_Clavicle",
+            "mode": "D",
+            "method": "SNAP",
+            "matrix": [[0,1,0],[0,0,1],[1,0,0],[0,0,0]]
+        },
+        "Right_Arm_Upper": {
+            "target_bone": "RUpperarm",
+            "param_name": "RUpperarm",
+            "pattern": "CC_Base_R_Upperarm",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[0,1,0],[0,0,1],[1,0,0],[0,0,0]]
+        },
+        "Right_Arm_Fore": {
+            "target_bone": "RForearm",
+            "param_name": "RForearm",
+            "pattern": "CC_Base_R_Forearm",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[0,1,0],[0,0,1],[1,0,0],[0,0,0]]
+        },
+        "Right_Arm_Palm": {
+            "target_bone": "RPalm",
+            "param_name": "RPalm",
+            "pattern": "CC_Base_R_Hand",
+            "mode": "PR",
+            "method": "SNAP",
+            "matrix": [[0,1,0],[1,0,0],[0,0,-1],[0,0,0]]
+        },
+        "R_Index_1": {
+            "target_bone": "R_Index_1",
+            "param_name": "Index",
+            "pattern": "CC_Base_R_Index1",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[0,0,1],[1,0,0],[0,1,0],[-83.7291,-140.25,223.9814]]
+        },
+        "R_Index_2": {
+            "target_bone": "R_Index_2",
+            "param_name": "Index",
+            "pattern": "CC_Base_R_Index2",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[0,0,1],[1,0,0],[0,1,0],[-87.4291,-140.2499,227.6815]]
+        },
+        "R_Index_3": {
+            "target_bone": "R_Index_3",
+            "param_name": "Index",
+            "pattern": "CC_Base_R_Index3",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[0.0031,1,-0.0022],[0,0.0022,1],[1,-0.0031,0],[0,0,0]]
+        },
+        "R_Middle_1": {
+            "target_bone": "R_Middle_1",
+            "param_name": "Middle",
+            "pattern": "CC_Base_R_Mid1",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[0,0,1],[1,0,0],[0,1,0],[-86.4133,-138.5079,224.9236]]
+        },
+        "R_Middle_2": {
+            "target_bone": "R_Middle_2",
+            "param_name": "Middle",
+            "pattern": "CC_Base_R_Mid2",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[0,0,1],[1,0,0],[0,1,0],[-90.1133,-138.5078,228.6236]]
+        },
+        "R_Middle_3": {
+            "target_bone": "R_Middle_3",
+            "param_name": "Middle",
+            "pattern": "CC_Base_R_Mid3",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[0,0,1],[1,0,0],[0,1,0],[-93.0632,-138.5078,231.5736]]
+        },
+        "R_Pinky_1": {
+            "target_bone": "R_Pinky_1",
+            "param_name": "Pinky",
+            "pattern": "CC_Base_R_Pinky1",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[0,0,1],[1,0,0],[0,1,0],[-88.7638,-134.215,222.981]]
+        },
+        "R_Pinky_2": {
+            "target_bone": "R_Pinky_2",
+            "param_name": "Pinky",
+            "pattern": "CC_Base_R_Pinky2",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[0,0,1],[1,0,0],[0,1,0],[-92.3637,-134.215,226.5809]]
+        },
+        "R_Pinky_3": {
+            "target_bone": "R_Pinky_3",
+            "param_name": "Pinky",
+            "pattern": "CC_Base_R_Pinky3",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[0,0,1],[1,0,0],[0,1,0],[-94.4636,-134.215,228.6809]]
+        },
+        "R_Ring_1": {
+            "target_bone": "R_Ring_1",
+            "param_name": "Ring",
+            "pattern": "CC_Base_R_Ring1",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[0,0,1],[1,0,0],[0,1,0],[-87.8494,-136.5997,224.4516]]
+        },
+        "R_Ring_2": {
+            "target_bone": "R_Ring_2",
+            "param_name": "Ring",
+            "pattern": "CC_Base_R_Ring2",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[0,0,1],[1,0,0],[0,1,0],[-91.2287,-136.5997,227.8309]]
+        },
+        "R_Ring_3": {
+            "target_bone": "R_Ring_3",
+            "param_name": "Ring",
+            "pattern": "CC_Base_R_Ring3",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[0,0,1],[1,0,0],[0,1,0],[-94.1183,-136.5997,230.7206]]
+        },
+        "R_Thumb_1": {
+            "target_bone": "R_Thumb_1",
+            "param_name": "Thumb",
+            "pattern": "CC_Base_R_Thumb1",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[-0.4937,-0.6194,0.6104],[0.4683,0.4021,0.7868],[-0.7328,0.6743,0.0916],[-7.1627,-140.0698,172.2264]]
+        },
+        "R_Thumb_2": {
+            "target_bone": "R_Thumb_2",
+            "param_name": "Thumb",
+            "pattern": "CC_Base_R_Thumb2",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[-0.4936,-0.6208,0.6091],[0.4695,0.3993,0.7875],[-0.732,0.6747,0.0944],[-12.6104,-142.0988,173.4848]]
+        },
+        "R_Thumb_3": {
+            "target_bone": "R_Thumb_3",
+            "param_name": "Thumb",
+            "pattern": "CC_Base_R_Thumb3",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[-0.4936,-0.6217,0.6082],[0.4704,0.3973,0.788],[-0.7315,0.675,0.0963],[-17.0351,-143.7442,174.576]]
+        },
+        "Right_Leg_Thigh": {
+            "target_bone": "RThigh",
+            "param_name": "RThigh",
+            "pattern": "CC_Base_R_Thigh",
+            "mode": "D",
+            "method": "SNAP",
+            "matrix": [[0,1,0],[0,0,1],[1,0,0],[0,0,0]]
+        },
+        "Right_Leg_Calf": {
+            "target_bone": "RCalf",
+            "param_name": "RCalf",
+            "pattern": "CC_Base_R_Calf",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[0,1,0],[0,0,1],[1,0,0],[0,0,0]]
+        },
+        "Right_Leg_Foot": {
+            "target_bone": "RFoot",
+            "param_name": "RFoot",
+            "pattern": "CC_Base_R_Foot",
+            "mode": "D",
+            "method": "SNAP",
+            "matrix": [[0,1,0],[0,0,1],[1,0,0],[0,0,0]]
+        },
+        "Right_Leg_Toe": {
+            "target_bone": "RToe",
+            "param_name": "Toe",
+            "pattern": "CC_Base_R_ToeBaseShareBone",
+            "mode": "D",
+            "method": "SNAP",
+            "matrix": [[0.1967,0.0123,-0.9804],[-0.3144,0.9479,-0.0512],[0.9287,0.3183,0.1903],[0,0,0]]
+        }
+    }
+}

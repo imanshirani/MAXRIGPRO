@@ -1,0 +1,183 @@
+{
+    "profile_name": "Rokoko_To_Standard",
+    "rig_name": "__Rokoko__",
+    "scale_factor": 1.0,
+    "mapping": {
+        "Head": {
+            "target_bone": "Head",
+            "param_name": "head",
+            "pattern": "Head",
+            "mode": "PR",
+            "method": "SNAP",
+            "matrix": [[0,1,0], [0,0,1], [1,0,0], [0,0,0]]
+        },
+        "Neck": {
+            "target_bone": "Neck2",
+            "param_name": "Neck2",
+            "pattern": "Neck",
+            "mode": "R",
+            "method": "SNAP",
+            "matrix": [[0,1,0], [0,0,1], [1,0,0], [0,0,0]]
+        },
+        "Neck1": {
+            "target_bone": "Neck1",
+            "param_name": "Neck1",
+            "pattern": "Chest",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[0,1,0], [0,0,1], [1,0,0], [0,0,0]]
+        },
+        "Spine_3_Ribcage": {
+            "target_bone": "Ribcage",
+            "param_name": "Ribcage",
+            "pattern": "Chest",
+            "mode": "PR",
+            "method": "SNAP",
+            "matrix": [[0,1,0], [0,0,1], [1,0,0], [0,0,0]]
+        },
+        "Spine01": {
+            "target_bone": "Spine01",
+            "param_name": "Spine2",
+            "pattern": "Spine",
+            "mode": "R",
+            "method": "DEFAULT",
+            "matrix": [[0,1,0], [0,0,1], [1,0,0], [0,0,0]]
+        },
+        "Pelvis": {
+            "target_bone": "Pelvis",
+            "param_name": "Pelvis",
+            "pattern": "Hips",
+            "mode": "PR",
+            "method": "SNAP",
+            "matrix": [[0,1,0], [0,0,1], [1,0,0], [0,0,0]]
+        },
+        "Left_Arm_Collar": {
+            "target_bone": "LCollarbone",
+            "param_name": "LCollarbone",
+            "pattern": "LeftCollar",
+            "mode": "D",
+            "method": "SNAP",
+            "matrix": [[0.984756,-0.173941,0], [0,0,1], [-0.173941,-0.984756,0], [0,0,0]]
+        },
+        "Left_Arm_Upper": {
+            "target_bone": "LUpperarm",
+            "param_name": "LUpperarm",
+            "pattern": "LeftShoulder",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[0.995818,0.0913605,0], [0,0,1], [0.0913605,-0.995818,0], [0,0,0]]
+        },
+        "Left_Arm_Fore": {
+            "target_bone": "LForearm",
+            "param_name": "LForearm",
+            "pattern": "LeftElbow",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[0.999365,0.0356317,0], [-0.0356061,0.998647,-0.0379046], [-0.00135061,0.0378805,0.999281], [0,0,0]]
+        },
+        "Left_Arm_Palm": {
+            "target_bone": "LPalm",
+            "param_name": "LPalm",
+            "pattern": "LeftWrist",
+            "mode": "PR",
+            "method": "SNAP",
+            "matrix": [[-0.0675648,-0.997715,0], [0.997715,-0.0675648,0], [0,0,1], [0,0,0]]
+        },
+        "Left_Leg_Thigh": {
+            "target_bone": "LThigh",
+            "param_name": "LThigh",
+            "pattern": "LeftHip",
+            "mode": "D",
+            "method": "SNAP",
+            "matrix": [[0,1,0], [0,0,1], [1,0,0], [0,0,0]]
+        },
+        "Left_Leg_Calf": {
+            "target_bone": "LCalf",
+            "param_name": "LCalf",
+            "pattern": "LeftKnee",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[0,1,0], [0,0,1], [1,0,0], [0,0,0]]
+        },
+        "Left_Leg_Foot": {
+            "target_bone": "LFoot",
+            "param_name": "LFoot",
+            "pattern": "LeftAnkle",
+            "mode": "D",
+            "method": "SNAP",
+            "matrix": [[0,1,0], [0,0,1], [1,0,0], [0,0,0]]
+        },
+        "Left_Leg_Toe": {
+            "target_bone": "LToe",
+            "param_name": "Toe",
+            "pattern": "LeftToe",
+            "mode": "D",
+            "method": "SNAP",
+            "matrix": [[0,1,0], [0,0,1], [1,0,0], [0,0,0]]
+        },
+        "Right_Arm_Collar": {
+            "target_bone": "RCollarbone",
+            "param_name": "RCollarbone",
+            "pattern": "RightCollar",
+            "mode": "D",
+            "method": "SNAP",
+            "matrix": [[-0.999174,-0.0406343,0], [0,0,1], [-0.0406343,0.999174,0], [0,0,0]]
+        },
+        "Right_Arm_Upper": {
+            "target_bone": "RUpperarm",
+            "param_name": "RUpperarm",
+            "pattern": "RightShoulder",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[-0.999359,0.0357896,0], [0,0,1], [0.0357896,0.999359,0], [0,0,0]]
+        },
+        "Right_Arm_Fore": {
+            "target_bone": "RForearm",
+            "param_name": "RForearm",
+            "pattern": "RightElbow",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[-0.998911,-0.0466517,0], [0,0,1], [-0.0466517,0.998911,0], [0,0,0]]
+        },
+        "Right_Arm_Palm": {
+            "target_bone": "RPalm",
+            "param_name": "RPalm",
+            "pattern": "RightWrist",
+            "mode": "PR",
+            "method": "SNAP",
+            "matrix": [[0.033584,-0.970435,0.239015], [0.999402,0.0345865,0], [-0.00826684,0.238872,0.971016], [0,0,0]]
+        },
+        "Right_Leg_Thigh": {
+            "target_bone": "RThigh",
+            "param_name": "RThigh",
+            "pattern": "RightHip",
+            "mode": "D",
+            "method": "SNAP",
+            "matrix": [[0,1,0], [0,0,1], [1,0,0], [0,0,0]]
+        },
+        "Right_Leg_Calf": {
+            "target_bone": "RCalf",
+            "param_name": "RCalf",
+            "pattern": "RightKnee",
+            "mode": "D",
+            "method": "DEFAULT",
+            "matrix": [[0,1,0], [0,0,1], [1,0,0], [0,0,0]]
+        },
+        "Right_Leg_Foot": {
+            "target_bone": "RFoot",
+            "param_name": "RFoot",
+            "pattern": "RightAnkle",
+            "mode": "D",
+            "method": "SNAP",
+            "matrix": [[0,1,0], [0,0,1], [1,0,0], [0,0,0]]
+        },
+        "Right_Leg_Toe": {
+            "target_bone": "RToe",
+            "param_name": "Toe",
+            "pattern": "RightToe",
+            "mode": "D",
+            "method": "SNAP",
+            "matrix": [[0,1,0], [0,0,1], [1,0,0], [0,0,0]]
+        }
+    }
+}

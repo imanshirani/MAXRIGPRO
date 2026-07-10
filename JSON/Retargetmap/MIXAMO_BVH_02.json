@@ -1,0 +1,21 @@
+{
+    "Head": "BVH_Head",
+    "Neck": "BVH_Neck",
+    "Spine_3_Ribcage": "BVH_Spine1",
+    "Spine_1": "BVH_Spine",
+    "Pelvis": "BVH_Hips",
+    "Left_Arm_Collar": "BVH_LeftShoulder",
+    "Left_Arm_Upper": "BVH_LeftArm",
+    "Left_Arm_Fore": "BVH_LeftForeArm",
+    "Left_Arm_Palm": "BVH_LeftHand",
+    "Left_Leg_Thigh": "BVH_LeftUpLeg",
+    "Left_Leg_Calf": "BVH_LeftLeg",
+    "Left_Leg_Foot": "BVH_LeftFoot",
+    "Right_Arm_Collar": "BVH_RightShoulder",
+    "Right_Arm_Upper": "BVH_RightArm",
+    "Right_Arm_Fore": "BVH_RightForeArm",
+    "Right_Arm_Palm": "BVH_RightHand",
+    "Right_Leg_Thigh": "BVH_RightUpLeg",
+    "Right_Leg_Calf": "BVH_RightLeg",
+    "Right_Leg_Foot": "BVH_RightFoot"
+}

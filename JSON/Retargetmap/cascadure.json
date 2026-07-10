@@ -1,0 +1,10 @@
+{
+    "Head": "BVH_Head",
+    "Neck": "BVH_Neck",
+    "chest": "BVH_Spine1",
+    "stomach": "BVH_Spine",
+    "Pelvis": "BVH_Hips",
+    "LThigh": "BVH_LeftUpLeg",
+    "LCalf": "BVH_LeftLeg",
+    "LFoot": "BVH_LeftFoot"
+}
