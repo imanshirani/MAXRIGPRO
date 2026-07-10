@@ -22,6 +22,8 @@ MAXRIG PRO is a modular Python-based toolset designed to bridge the gap between 
 * **Undo History:** Large skin transfer operations might take a moment to register in the undo buffer.
 --------------------------
 
+![screenshot](etc/screen.jpg)
+
 ## ✨ Features
 
 | Feature | Description |
